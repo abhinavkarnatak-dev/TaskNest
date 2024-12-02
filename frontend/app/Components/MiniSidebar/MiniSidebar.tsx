@@ -41,9 +41,9 @@ function MiniSidebar() {
   ];
   return (
     <div className="basis-[5rem] flex flex-col bg-[#f9f9f9]">
-      <div className="flex items-center justify-center h-[5rem]">
+      <Link href="/" className="flex items-center justify-center h-[5rem]">
         <Image src="/logo.png" width={48} height={48} alt="logo" />
-      </div>
+      </Link>
 
       <div className="mt-8 flex-1 flex flex-col items-center justify-between">
         <ul className="flex flex-col gap-10">
